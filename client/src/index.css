@@ -1,0 +1,21 @@
+@import "tailwindcss";
+/* ✅ Tailwind v4 setup - no need for @tailwind base/components/utilities */
+
+/* Define custom design tokens using Tailwind 4's new @theme directive */
+@theme {
+  --color-primary: #1b3b2a;
+  --color-accent: #f5a623;
+  --color-soft-gray: #f3f3f3;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+}
+
+/* Global styling */
+body {
+  @apply bg-white text-gray-900 font-sans;
+}
+
+/* Rounded pill button helper */
+.btn-pill {
+  @apply inline-flex items-center justify-center rounded-full px-6 py-2;
+}
