@@ -4,7 +4,10 @@ import Minhaz from "../assets/Minhaz.png";
 
 export default function About() {
   return (
-    <section className="bg-[#1A3C34] py-20 overflow-hidden rounded-2xl">
+    <section
+      id="about"
+      className="bg-[#1A3C34] py-20 overflow-hidden rounded-2xl"
+    >
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* LEFT: Photo + Floating Pills */}

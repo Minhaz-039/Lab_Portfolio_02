@@ -106,7 +106,7 @@ function ProjectCard({ project, index }) {
 
 export default function Projects() {
   return (
-    <section className="py-20 bg-black rounded-2xl">
+    <section id="projects" className="py-20 bg-black rounded-2xl">
       <div className="max-w-7xl mx-auto px-6 rounded-2xl">
         {/* Header */}
         <motion.div
